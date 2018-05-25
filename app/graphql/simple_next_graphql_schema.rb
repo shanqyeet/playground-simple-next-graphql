@@ -1,4 +1,4 @@
-SimpleNextGraphqlSchema = GraphQL::Schema.define do
+class SimpleNextGraphqlSchema < GraphQL::Schema
   mutation(Types::MutationType)
   query(Types::QueryType)
 end
